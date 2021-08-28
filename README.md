@@ -22,13 +22,11 @@ To compile the program using Make, run `make` from your shell in the directory o
 To run the program, use `./fklog <options>`. 
 
 The command line options are: 
-* [-f | --outfile ] <filename> [Req] – The file to output keystrokes to
-* [-k | --keyboard] <filename> [Req] – The file that tracks keyboard events
-* [-h | --help    ]            [Opt] – Print help about using `fklog`, then exit
+* [`-f` | `--outfile` ] `<filename>` [Req] – The file to output keystrokes to
+* [`-k` | `--keyboard`] `<filename>` [Req] – The file that tracks keyboard events
+* [`-h` | `--help`    ]              [Opt] – Print help about using `fklog`, then exit
 
 ### **Example**
-
-L
 
 <img src="images/fklog-example.PNG" height="400">
 
