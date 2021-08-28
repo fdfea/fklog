@@ -146,7 +146,7 @@ int main(int Argc, char **Argv)
         }
 
         fwrite(Keystrokes, sizeof(Keystrokes[0]), BUFSIZE, Outfile);
-        i = 0;
+        i = 0x00;
     }
 
     fwrite(Keystrokes, sizeof(Keystrokes[0]), i, Outfile);
